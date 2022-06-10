@@ -18,9 +18,11 @@ $data = config('footer');
                     </ul>
                 @endforeach
             </div>
-            All Site Content TM and 2020 DC Entertainment, unless otherwise 
-            <a href="#">noted here</a>. All rights reserved. <br>
-            <a href="#">Cookies settings</a>
+            <div class="copyright">
+                All Site Content TM and 2020 DC Entertainment, unless otherwise 
+                <a href="#">noted here</a>. All rights reserved. <br>
+                <a href="#">Cookies settings</a>
+            </div>
         </div>
     </div>
 
