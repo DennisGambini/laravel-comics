@@ -4,12 +4,6 @@ $data = config('footer');
 
 <footer>
 
-    <div class="footer-top">
-        <div class="container">
-            footer top
-        </div>
-    </div>
-
     <div class="footer-center">
         <div class="container">
             <div class="liste">
@@ -35,10 +29,11 @@ $data = config('footer');
             <button>sign-up now!</button>
             <div class="icons">
                 <span>follow us</span>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-pinterest"></i>
+                <img src="{{asset('img/footer-facebook.png')}}" alt="immagine footer">
+                <img src="{{asset('img/footer-twitter.png')}}" alt="immagine footer">
+                <img src="{{asset('img/footer-youtube.png')}}" alt="immagine footer">
+                <img src="{{asset('img/footer-pinterest.png')}}" alt="immagine footer">
+                <img src="{{asset('img/footer-periscope.png')}}" alt="immagine footer">
             </div>
         </div>
     </div>

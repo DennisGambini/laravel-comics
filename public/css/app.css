@@ -29,11 +29,11 @@ ul {
 main#home {
   background-color: #1C1C1C;
 }
-main#home .container {
+main#home .grid .container {
   max-width: 75%;
   margin: 0 auto;
 }
-main#home .container .row {
+main#home .grid .container .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -41,14 +41,14 @@ main#home .container .row {
   gap: 20px;
   padding: 50px 0;
 }
-main#home .container .row .card {
+main#home .grid .container .row .card {
   width: calc(16.6666666667% - 16.6666666667px);
 }
-main#home .container .row .card .image {
+main#home .grid .container .row .card .image {
   width: 100%;
   aspect-ratio: 1;
 }
-main#home .container .row .card .image img {
+main#home .grid .container .row .card .image img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -56,10 +56,41 @@ main#home .container .row .card .image img {
   -o-object-position: top center;
      object-position: top center;
 }
-main#home .container .row .card .title {
+main#home .grid .container .row .card .title {
   margin-top: 20px;
   text-transform: uppercase;
   color: white;
+}
+main#home .main-footer {
+  background-color: #0282F9;
+}
+main#home .main-footer .container {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main#home .main-footer .container .box {
+  text-transform: uppercase;
+  color: white;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main#home .main-footer .container .box .image {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main#home .main-footer .container .box .image img {
+  height: 30%;
 }
 
 * {
@@ -157,11 +188,6 @@ ul {
 
 footer {
   background-color: lightblue;
-}
-footer .footer-top .container {
-  border: 1px solid red;
-  max-width: 75%;
-  margin: 0 auto;
 }
 footer .footer-center .container {
   max-width: 75%;

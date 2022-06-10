@@ -1,13 +1,7 @@
 @import "../general";
 
 footer{
-    background-color: lightblue;
-    .footer-top{
-        .container{
-            border:1px solid red;
-            @include container;
-        }
-    }   
+    background-color: lightblue; 
     .footer-center{
         .container{
             @include container;
