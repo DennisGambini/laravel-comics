@@ -2,12 +2,14 @@
 
 header{
     .header-top{
-        background-color: $blue;
+        background-color: $blue-bg;
+        color: $white-text;
         .container{
             @include container;
             @include flex-row-end-center;
             gap: 40px;
             padding: 5px;
+            text-transform: uppercase;
         }
     }
     .header-bottom{
