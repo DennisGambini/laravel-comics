@@ -5,7 +5,6 @@
 }
 
 a {
-  color: black;
   text-decoration: none;
 }
 
@@ -20,7 +19,6 @@ ul {
 }
 
 a {
-  color: black;
   text-decoration: none;
 }
 
@@ -79,7 +77,6 @@ header .header-bottom .container input::placeholder {
 }
 
 a {
-  color: black;
   text-decoration: none;
 }
 
@@ -101,7 +98,6 @@ ul {
 }
 
 a {
-  color: black;
   text-decoration: none;
 }
 
@@ -117,11 +113,11 @@ footer .footer-top .container {
   max-width: 75%;
   margin: 0 auto;
 }
-footer .footer-bottom .container {
+footer .footer-center .container {
   max-width: 75%;
   margin: 0 auto;
 }
-footer .footer-bottom .container .liste {
+footer .footer-center .container .liste {
   border: 1px solid black;
   height: 250px;
   width: 50%;
@@ -131,9 +127,17 @@ footer .footer-bottom .container .liste {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-footer .footer-bottom .container .liste ul li.head {
+footer .footer-center .container .liste ul li.head {
   color: red;
 }
-footer .footer-bottom .container .liste ul li.normal a {
+footer .footer-center .container .liste ul li.normal a {
   color: green;
+}
+footer .footer-bottom .container {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

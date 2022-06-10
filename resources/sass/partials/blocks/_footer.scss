@@ -8,7 +8,7 @@ footer{
             @include container;
         }
     }   
-    .footer-bottom{
+    .footer-center{
         .container{
             @include container;
             .liste{
@@ -29,6 +29,12 @@ footer{
                 }
 
             }
+        }
+    }
+    .footer-bottom{
+        .container{
+            @include container;
+            @include flex-row-between-center;
         }
     }
 }
