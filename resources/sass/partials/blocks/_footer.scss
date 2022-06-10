@@ -1,0 +1,34 @@
+@import "../general";
+
+footer{
+    background-color: lightblue;
+    .footer-top{
+        .container{
+            border:1px solid red;
+            @include container;
+        }
+    }   
+    .footer-bottom{
+        .container{
+            @include container;
+            .liste{
+                border:1px solid black;
+                height: 250px;
+                width: 50%;
+                @include flex-col-start-start;
+                flex-wrap: wrap;
+                ul{
+                    li.head{
+                        color: red;
+                    }
+                    li.normal{
+                        a{
+                            color: green;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
