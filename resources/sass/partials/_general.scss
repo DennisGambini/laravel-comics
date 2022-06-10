@@ -1,4 +1,17 @@
-body{
-    background-color: blue;
-    color: red;
+@import "vars";
+@import "myFlexFramework";
+@import "mixins";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+ul{
+    list-style: none;
 }

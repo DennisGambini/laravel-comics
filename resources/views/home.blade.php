@@ -8,6 +8,6 @@
     <title>DC Comics</title>
 </head>
 <body>
-    sono l'home
+    @include('partials.header')
 </body>
 </html>
